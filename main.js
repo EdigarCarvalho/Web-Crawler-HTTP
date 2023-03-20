@@ -1,2 +1,2 @@
-const edigar = "edigar";
+const edigar = "nada";
 console.log(edigar);
