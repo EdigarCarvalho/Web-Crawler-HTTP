@@ -4,7 +4,7 @@ async function crawlPage(currentUrl){
     console.log(`actively crawling: ${currentUrl}`)
 
     const res = await fetch(currentUrl)
-    console.log(res.text())
+    console.log(await res.text())
 }
 
 function getUrlsfromHtml(htmlBody, baseURL){
